@@ -10,3 +10,8 @@ code:
 pigLatinVowel("p");
 Expected Output : 0;
 
+Test : "It should return the index of the first vowel in the word"
+code:
+pigLatinVowel("spray");
+Expected Output : 3;
+
