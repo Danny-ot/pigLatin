@@ -15,3 +15,8 @@ code:
 pigLatinVowel("spray");
 Expected Output : 3;
 
+Test : "It should return the index of the first vowel in the word irrespective of the punctuation"
+code:
+pigLatinVowel("a,rray");
+Expected Output : 0;
+
