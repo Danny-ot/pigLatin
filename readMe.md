@@ -20,3 +20,7 @@ code:
 pigLatinVowel("a,rray");
 Expected Output : 0;
 
+Test : "It should return the index of the first vowel in the word irrespective of the case"
+code:
+pigLatinVowel("pEt");
+Expected Output : 1;
