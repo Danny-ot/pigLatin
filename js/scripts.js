@@ -1,4 +1,3 @@
-
 function indexOfFirstVowel(word){
     const vowel = ["a" , "e" , "i" , "o" , "u"];
     const wordChar = word.split("");
@@ -12,3 +11,5 @@ function indexOfFirstVowel(word){
     })
     return returnIndex;
 }
+
+
