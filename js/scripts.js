@@ -1,12 +1,14 @@
-function pigLatinVowel(word){
-    const vowel = ["a","e","i","o","u"];
-    const wordArray = word.split("");
-    let char = "";
-    wordArray.forEach((element) => {
-        if(vowel.includes(element)){
-        char = element + "way";
-    }
-    });
-    
-    return char;
+
+function indexOfFirstVowel(word){
+    const vowel = ["a" , "e" , "i" , "o" , "u"];
+    const wordChar = word.split("");
+    let returnIndex = -1;
+
+    wordChar.forEach(function(element , index){  
+        if(vowel.includes(element.toLowerCase() && returnIndex === -1)){
+            returnIndex = index;
+            return returnIndex;
+        }
+    })
+    return returnIndex;
 }
