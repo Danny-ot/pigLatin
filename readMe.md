@@ -24,3 +24,5 @@ Test : "It should return the index of the first vowel in the word irrespective o
 code:
 pigLatinVowel("pEt");
 Expected Output : 1;
+
+
